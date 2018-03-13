@@ -1,0 +1,14 @@
+<table>
+<tr>
+<td><p>编号：</p></td>
+<td><input name="cCol00" id="cCol00" type="text" class="text ui-widget-content ui-corner-all" /></td>
+</tr>
+<tr>
+<td><p>姓名：</p></td>
+<td><input name="cCol01" id="cCol01" type="text" class="text ui-widget-content ui-corner-all" /></td>
+</tr>
+<tr>
+<td><p>诊断：</p></td>
+<td><textarea name="cCol02" id="cCol02" rows="10" cols="40"></textarea></td>
+</tr>
+</table>

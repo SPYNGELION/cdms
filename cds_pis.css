@@ -1,0 +1,10 @@
+input.text {
+    width: 180px;
+    height: 30px;
+}
+input.text:invalid {
+    border: 1px dashed red;
+}
+input.text:valid {
+    border: 1px solid black;
+}

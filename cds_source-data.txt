@@ -1,0 +1,18 @@
+<table>
+<tr>
+<td><p>编&emsp;&emsp;号：</p></td>
+<td><input name="cCol00" id="cCol00" type="text" class="text ui-widget-content ui-corner-all" /></td>
+</tr>
+<tr>
+<td><p>姓&emsp;&emsp;名：</p></td>
+<td><input name="cCol01" id="cCol01" type="text" class="text ui-widget-content ui-corner-all" /></td>
+</tr>
+<tr>
+<td><p>文件选择：</p></td>
+<td><input name="cCol02[]" id="cCol02" type="file" multiple class="ui-widget-content ui-corner-all" /></td>
+</tr>
+<tr>
+<td><p>上传情况：</p></td>
+<td><div id="uploadstatus_div"></div></td>
+</tr>
+</table>

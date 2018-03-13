@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用户登录</title>
+<link type="text/css" rel="stylesheet" href="lib/jquery-ui-themes/themes/base/jquery-ui.css" />
+<link type="text/css" rel="stylesheet" href="index.css" />
+<script type="text/javascript" src="lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="cds_tools.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        bingwidgetaction(4);
+    });
+</script>
+</head>
+<body>
+<div>
+<form id="login_form">
+<fieldset>
+<p>
+<label for"username_input">用户名：</label>
+<input name="username" id="username_input" type="text" class="text ui-widget-content ui-corner-all" />
+</p>
+<p>
+<label for="password_input">密&emsp;码：</label>
+<input name="password" id="password_input" type="password" class="text ui-widget-content ui-corner-all" />
+</p>
+<p>
+<input type="submit" value="登录" class="ui-button ui-widget ui-corner-all" />
+</p>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

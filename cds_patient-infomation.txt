@@ -1,0 +1,82 @@
+<table>
+<tr>
+<td>
+<label for="cCol00">编&emsp;号：</label>
+<input name="cCol00" id="cCol00" type="text" class="text ui-widget-content ui-corner-all" required minlength="8" maxlength="8" />
+</td>
+</tr>
+<tr>
+<td>
+<label for="cCol01">姓&emsp;名：</label>
+<input name="cCol01" id="cCol01" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+<td>
+<input name="cCol02" id="cCol02" type="text" class="text ui-widget-content ui-corner-all" required minlength="4" maxlength="4" />
+</td>
+<td>
+<label for="cCol03">性&emsp;&emsp;别：</label>
+<select name="cCol03" id="cCol03" required>
+<option value="0">男</option>
+<option value="1">女</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label for="cCol04">年&emsp;龄：</label>
+<input name="cCol04" id="cCol04" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+<td>
+<label for="cCol05">民&emsp;&emsp;族：</label>
+<input name="cCol05" id="cCol05" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label for="cCol06">婚&emsp;况：</label>
+<select name="cCol06" id="cCol06" required>
+<option value="0">未婚</option>
+<option value="1">已婚</option>
+<option value="2">离异</option>
+<option value="3">丧偶</option>
+</select>
+</td>
+<td>
+<label for="cCol07">身份证号：</label>
+<input name="cCol07" id="cCol07" type="text" class="text ui-widget-content ui-corner-all" required minlength="15" maxlength="18" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label for="cCol08">职&emsp;业：</label>
+<input name="cCol08" id="cCol08" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+<td>
+<label for="cCol09">联系电话：</label>
+<input name="cCol09" id="cCol09" type="text" class="text ui-widget-content ui-corner-all" required minlength="8" maxlength="15" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label for="cCol10">出生地：</label>
+<input name="cCol10" id="cCol10" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+<td>
+<label for="cCol11">首诊日期：</label>
+<input name="cCol11" id="cCol11" type="date" class="text ui-widget-content ui-corner-all" required />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label for="cCol12">常住地：</label>
+<input name="cCol12" id="cCol12" type="text" class="text ui-widget-content ui-corner-all" required />
+</td>
+<td>
+<label for="cCol13">费&emsp;&emsp;别：</label>
+<select name="cCol13" id="cCol13" required>
+<option value="0">医保</option>
+<option value="1">自费</option>
+<select>
+</td>
+</tr>
+</table>
